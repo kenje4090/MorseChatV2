@@ -19,5 +19,21 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)startBut:(id)sender {
+    [self makeSound];
+}
+
+- (IBAction)aboutBut:(id)sender {
+    [self makeSound];
+}
+
+-(void) makeSound{
+    SystemSoundID soundID;
+    NSString *soundFile = [[NSBundle mainBundle] pathForResource:@"Button_Press-Marianne_Gagnon" ofType:@"wav"];
+    
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:soundFile], &soundID);
+    
+    AudioServicesPlayAlertSound(soundID);
+}
 
 @end

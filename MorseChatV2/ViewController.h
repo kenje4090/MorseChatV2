@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AudioToolbox/AudioToolbox.h>
 @interface ViewController : UIViewController
+- (IBAction)startBut:(id)sender;
+- (IBAction)aboutBut:(id)sender;
 
-
+-(void) makeSound;
 @end
 

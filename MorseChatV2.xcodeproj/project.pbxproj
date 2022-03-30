@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203172B923A3CDB80057D688 /* Button_Press-Marianne_Gagnon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 203172B823A3CDB80057D688 /* Button_Press-Marianne_Gagnon.wav */; };
+		203172BC23A3E3B80057D688 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203172BB23A3E3B80057D688 /* WebViewController.m */; };
+		2059C13B23A2315A007E6E35 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2059C13A23A2315A007E6E35 /* AboutViewController.m */; };
+		20C6D3B823A38BE700242994 /* BlindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6D3B723A38BE700242994 /* BlindViewController.m */; };
 		20DFF82E239E446F008454C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFF82D239E446F008454C5 /* AppDelegate.m */; };
 		20DFF831239E446F008454C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFF830239E446F008454C5 /* ViewController.m */; };
 		20DFF834239E446F008454C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DFF832239E446F008454C5 /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		20DFF83C239E4470008454C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFF83B239E4470008454C5 /* main.m */; };
 		20DFF846239E4470008454C5 /* MorseChatV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFF845239E4470008454C5 /* MorseChatV2Tests.m */; };
 		20DFF851239E4470008454C5 /* MorseChatV2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFF850239E4470008454C5 /* MorseChatV2UITests.m */; };
+		20DFF860239E44FE008454C5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFF85F239E44FE008454C5 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203172B823A3CDB80057D688 /* Button_Press-Marianne_Gagnon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Button_Press-Marianne_Gagnon.wav"; path = "../../../../../../../Downloads/Button_Press-Marianne_Gagnon.wav"; sourceTree = "<group>"; };
+		203172BA23A3E3B80057D688 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		203172BB23A3E3B80057D688 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		2059C13923A2315A007E6E35 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		2059C13A23A2315A007E6E35 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		20C6D3B623A38BE700242994 /* BlindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlindViewController.h; sourceTree = "<group>"; };
+		20C6D3B723A38BE700242994 /* BlindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlindViewController.m; sourceTree = "<group>"; };
 		20DFF829239E446F008454C5 /* MorseChatV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseChatV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DFF82C239E446F008454C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20DFF82D239E446F008454C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,8 @@
 		20DFF84C239E4470008454C5 /* MorseChatV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseChatV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DFF850239E4470008454C5 /* MorseChatV2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseChatV2UITests.m; sourceTree = "<group>"; };
 		20DFF852239E4470008454C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DFF85E239E44FE008454C5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		20DFF85F239E44FE008454C5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		20DFF82B239E446F008454C5 /* MorseChatV2 */ = {
 			isa = PBXGroup;
 			children = (
+				203172B823A3CDB80057D688 /* Button_Press-Marianne_Gagnon.wav */,
 				20DFF82C239E446F008454C5 /* AppDelegate.h */,
 				20DFF82D239E446F008454C5 /* AppDelegate.m */,
 				20DFF82F239E446F008454C5 /* ViewController.h */,
@@ -110,6 +125,14 @@
 				20DFF837239E4470008454C5 /* LaunchScreen.storyboard */,
 				20DFF83A239E4470008454C5 /* Info.plist */,
 				20DFF83B239E4470008454C5 /* main.m */,
+				20DFF85E239E44FE008454C5 /* SecondViewController.h */,
+				20DFF85F239E44FE008454C5 /* SecondViewController.m */,
+				2059C13923A2315A007E6E35 /* AboutViewController.h */,
+				2059C13A23A2315A007E6E35 /* AboutViewController.m */,
+				20C6D3B623A38BE700242994 /* BlindViewController.h */,
+				20C6D3B723A38BE700242994 /* BlindViewController.m */,
+				203172BA23A3E3B80057D688 /* WebViewController.h */,
+				203172BB23A3E3B80057D688 /* WebViewController.m */,
 			);
 			path = MorseChatV2;
 			sourceTree = "<group>";
@@ -238,6 +261,7 @@
 				20DFF839239E4470008454C5 /* LaunchScreen.storyboard in Resources */,
 				20DFF836239E4470008454C5 /* Assets.xcassets in Resources */,
 				20DFF834239E446F008454C5 /* Main.storyboard in Resources */,
+				203172B923A3CDB80057D688 /* Button_Press-Marianne_Gagnon.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DFF860239E44FE008454C5 /* SecondViewController.m in Sources */,
+				203172BC23A3E3B80057D688 /* WebViewController.m in Sources */,
+				2059C13B23A2315A007E6E35 /* AboutViewController.m in Sources */,
 				20DFF831239E446F008454C5 /* ViewController.m in Sources */,
 				20DFF83C239E4470008454C5 /* main.m in Sources */,
+				20C6D3B823A38BE700242994 /* BlindViewController.m in Sources */,
 				20DFF82E239E446F008454C5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TLFZWYLMW;
 				INFOPLIST_FILE = MorseChatV2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TLFZWYLMW;
 				INFOPLIST_FILE = MorseChatV2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
